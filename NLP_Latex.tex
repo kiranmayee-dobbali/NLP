@@ -1,0 +1,352 @@
+%-*- Mode:LaTeX; -*-      
+\documentclass[11pt]{article}
+\usepackage{vmargin}		% Force narrower margins
+\setpapersize{USletter}
+\setmarginsrb{1.0in}{1.0in}{1.0in}{0.6in}{0pt}{0pt}{0pt}{0.4in}
+\setlength{\parskip}{.1in}  % removed space between paragraphs
+\setlength{\parindent}{0in}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\newcommand{\ra}{$\rightarrow$~}
+\newcommand{\dt}{$\circ$~}
+
+\begin{document}
+
+\large
+\begin{center}
+{\bf CS-5340/6340, Written Assignment \#1} \\
+{\bf DUE: Tuesday, September 3, 2019 by 11:59pm} \\
+{\bf  Submit your assignment on CANVAS in pdf format.}
+\end{center}
+\normalsize
+
+\begin{enumerate}  
+
+\item (15 pts) Answer the questions below based on the part-of-speech
+  tags that should be assigned to each word in the story below.
+
+  \begin{quote}
+    {\it Tom was cycling in Moab when he hit a tree and broke his
+      leg. He was rushed to a hospital where orthopedic doctors put
+      his leg in a cast. He should recover within a month. Tom said
+      that he could have avoided the tree if he had not been
+      distracted by several young kids who were running down the steep
+      trail. He yelled at the boys to move off the biking trail! The
+      children were later scolded by a park ranger.  Tom is lucky that
+      he only broke a leg. Crashing into a tree can be fatal!}
+\end{quote}
+  
+  \begin{enumerate}
+
+  \item List all of the verbs that  appear in a passive voice
+    construction. \\
+  \textbf{rushed, distracted, scolded} 
+  \item List all of the modal verbs.\\
+   \textbf{should, could, can}
+  \item List all of the  head nouns that are plural. \\
+ \textbf{doctors, kids, boys, children}
+  \item List all of the gerunds. \\
+ \textbf{Crashing}
+  \item List all of the adverbs. \\
+ \textbf{when, where, not, several, later, only}    
+\end{enumerate}
+
+
+
+\item (20 pts) For each underlined word below, indicate whether it is
+  functioning as a {\it particle} or  as a {\it preposition} in the   sentence.
+
+  \begin{enumerate}
+
+\item Joe carried the injured girl \underline{down}  the hill and  into an ambulance. \textbf{Preposition}
+
+\item Tom had to catch \underline{up} with his coursework after  getting the flu. \textbf{Particle}
+
+\item The 4-hour meeting finally wound \underline{up} just before  noon. \textbf{Particle}
+
+\item  The Jazz pulled \underline{off} a win after a last-second slam  dunk from Mitchell. \textbf{Particle}
+
+\item The tiny boy was picked \underline{on} by bullies in his class. \textbf{Particle}
+
+\item Mary was fed \underline{up} after the bus was late yet again.\textbf{Particle}
+
+\item Susan swam \underline{across} the river to rescue her dog. \textbf{Preposition}
+
+\item The man dove \underline{off} a tall cliff into  the ocean. \textbf{Particle}
+
+\item The armed robber  gave \underline{up} after being surrounded by  police. \textbf{Particle}
+ 
+  \item Julie found \underline{out} that she was nominated for an
+    award. \textbf{Particle}
+
+\end{enumerate}
+
+
+\newpage
+\item (20 pts) Fill in the table with morphology rules to derive all
+  of the words below from the specified root form {\it in a
+    linguistically sensible way}. Some derivations may require the
+  application of multiple rules. In this case, put each 
+  rule in a separate row of the table. Also, some words may have
+  multiple derivations. Be sure to include \underline{all} derivations that make
+  sense.
+
+  For illustration, the table is already filled in with the derivation
+  of ``unfairly'' from the root ``fair''. 
+
+\begin{enumerate}
+
+\item abbreviation (root = ``abbreviate'') 
+\item eaters (root = ``eat'')
+\item forgetfulness (root = ``forget'')
+\item nonperishable (root = ``perish'')
+\item neonationalism (root = ``nation'')
+
+\end{enumerate}
+
+  \begin{center}
+ \small
+  \begin{tabular}{|l|l|l|l|l|l|l|l|} \hline
+  \textbf{Derived} & \textbf{Origin} & \textbf{Prefix} & \textbf{Suffix} & 
+  \textbf{Replacement} & \textbf{POS of} & \textbf{POS of} \\
+  \textbf{Form} & ~ & ~ & ~ & \textbf{Chars} & \textbf{Origin} &
+  \textbf{Derived} \\ \hline
+   unfairly & unfair & - & ly  & - & ADJ & ADV \\
+   unfair & fair & un & - & - & ADJ & ADJ \\  \hline \hline
+ abbreviation & abbreviate & - & ion & e & Verb & Noun \\ \hline
+ eaters & eater & - & s & - & Noun & Noun \\
+ eater & eat & - & er & - & Verb & Noun \\ \hline
+ forgetfulness & forgetful & - & ness & - & Adjective & Noun \\
+ forgetful & forget & - & ful & - & Verb & Adjective \\ \hline
+ nonperishable & perishable & non & - & - & Adjective & Adjective/Noun \\
+perishable & perish & - & able & - & Verb & Adjective/Noun \\ \hline
+ neonationalism & nationalism & neo & - & - & Noun & Noun \\
+ nationalism & national & - & ism & - & Adjective & Noun \\
+ National & Nation & - & al & - & Noun & Ajective \\ \hline
+
+
+  \end{tabular}
+  \end{center}
+
+
+
+\newpage
+\item (25 pts) Assume that a part-of-speech tagger has been applied to the
+4 sentences below with the following results:
+
+\begin{quote}
+A/ART hungry/ADJ bear/NOUN eats/VERB a/ART pound/NOUN of/PREP
+fish/NOUN per/PREP day/NOUN  \\
+
+A/ART hungry/ADJ bear/NOUN will/MOD often/ADV hunt/VERB for/PREP
+food/NOUN in/PREP a/ART garbage/NOUN can/NOUN\\
+
+The/ART brown/ADJ bear/NOUN hunt/NOUN starts/VERB tomorrow/ADV  \\
+
+People/NOUN often/ADV fish/VERB for/PREP trout/NOUN and/CONJ hunt/VERB
+for/PREP deer/NOUN in/PREP the/ART forest/NOUN
+\end{quote}
+
+
+Fill in the table below with the probabilities that you would estimate
+based on the sentences above (i.e, treat these 4 sentences like a tiny
+text corpus). {\bf Please leave your results in fractional
+  form, even if the result is an integer like 0 or 1! For example,
+  leave your answer as 0/5, 5/5, etc.}
+
+\vspace*{.1in}
+We define unigram, bigram , trigram, and emission probabilities as:
+\begin{description}
+\item[Lexical Unigram:] $P(w_i)$ means probability of word $w_i$
+\item[POS Unigram:] $P(t_i)$ means probability of POS tag $t_i$
+\item[Lexical Bigram:] $P(w_i \mid w_{i-1})$ means probability of word
+  $w_i$ following word $w_{i-1}$
+\item[POS Bigram:] $P(t_i \mid t_{i-1})$ means probability of POS
+  tag $t_i$ following POS tag $t_{i-1}$
+\item[Lexical Trigram:] $P(w_i \mid w_{i-2}~w_{i-1})$ means probability of word
+  $w_i$ following words $w_{i-2}$ $w_{i-1}$
+\item[POS Trigram:] $P(t_i \mid t_{i-2}~t_{i-1})$ means probability of tag
+  $t_i$ following tags $t_{i-2}$ $t_{i-1}$
+\item[Emission Probability:] $P(w_i \mid t_i)$ means
+  probability of word $w_i$ given tag $t_i$.
+\end{description}
+
+
+ \begin{center}
+ \begin{tabular}{|l|l|} \hline
+ \textbf{Probability~~~~~~~~~~~~~~~} & \textbf{Value~~~~~~~~~~~~~~~~~} \\ \hline
+   $P$(in) & 2/40\\ \hline
+   $P$(bear) & 3/40 \\ \hline
+   $P$(PREP) & 7/40 \\ \hline
+   $P$(NOUN) &  14/40 \\ \hline
+   $P$(ART $\mid$ $\phi$) & 3/6 \\ \hline
+   $P$(bear $\mid$ hungry) & 2/2 \\ \hline
+   $P$(hungry $\mid$ bear) & 0/3 \\ \hline
+   $P$(NOUN $\mid$ ADJ) & 3/3 \\ \hline
+   $P$(NOUN $\mid$ PREP) & 4/7 \\ \hline
+   $P$(NOUN $\mid$ PREP ART) & 2/2 \\ \hline
+   $P$(ADJ $\mid$ $\phi$ ART) & 3/3 \\ \hline
+   $P$(food $\mid$ hunt for) & 1/2 \\ \hline
+   $P$(deer $\mid$ in the) & 0/1 \\ \hline
+   $P$(often $\mid$ ADV) & 2/3 \\ \hline
+   $P$(for $\mid$ PREP) & 3/7 \\   \hline
+ \end{tabular}
+ \end{center}
+
+
+
+\newpage
+\item (20 pts) Use the following probabilities to answer the questions
+  below.  Assume that all probability values NOT listed in the table are zero!
+
+\begin{center}
+  \begin{tabular}{|ll|ll|} \hline
+    $P$(I) = .30 & $P$(I $\mid$ $\phi$) = .40 \\
+    $P$(am) = .10 &  $P$(is $\mid$ $\phi$) = .25 \\
+    $P$(Sam) = .05 & $P$(Sam $\mid$ $\phi$) = .03 \\
+    $P$(is) = .20 &     $P$(Sam $\mid$ am) = .25 \\
+    $P$(am $\mid$ I) = .60 &     $P$(Sam $\mid$ is) = .35 \\
+    $P$(is $\mid$ I) = .08 &   $P$(I $\mid$ is) = .07 \\
+    $P$(Sam $\mid$ I) = .01~~~~~ &    $P$(I $\mid$ Sam) = .09 \\ \hline 
+\end{tabular}
+\end{center}
+
+Compute the perplexity of the following word sequences using a unigram
+language model.  {\bf Show all your work!}
+
+\begin{enumerate}
+\item I am Sam
+
+\item Sam I am
+
+\item I is Sam
+
+\item is I Sam
+
+\end{enumerate}
+
+
+
+ \bf I am Sam \\
+\begin{equation*}
+   \begin{split}
+   PP(I\thinspace am  \thinspace Sam) & = \sqrt[3]{\frac{1}{P(I) P(am) P(Sam)}} \\ 
+                 &  = \sqrt[3]{\frac{1}{(0.30) (0.10) (0.05)}}  \\
+                 &= 8.375 \\
+\end{split}
+\end{equation*}
+
+ \bf Sam I am\\
+\begin{equation*}
+   \begin{split}
+   PP(Sam\thinspace I  \thinspace am) & = \sqrt[3]{\frac{1}{P(Sam) P(I) P(am)}} \\ 
+                 &  = \sqrt[3]{\frac{1}{(0.05) (0.30) (0.10)}}  \\
+                 &= 8.375 \\
+\end{split}
+\end{equation*}
+
+
+\bf I is Sam\\
+\begin{equation*}
+   \begin{split}
+   PP(I \thinspace is \thinspace Sam) & = \sqrt[3]{\frac{1}{P(I) P(is) P(Sam)}} \\ 
+                 &  = \sqrt[3]{\frac{1}{(0.30) (0.10) (0.05)}}  \\
+                 &= 6.9336 \\
+\end{split}
+\end{equation*}
+
+\bf is I Sam\\
+\begin{equation*}
+   \begin{split}
+   PP(is  \thinspace I  \thinspace Sam) & = \sqrt[3]{\frac{1}{P(is) P(I) P(Sam)}} \\ 
+                 &  = \sqrt[3]{\frac{1}{(0.10) (0.30) (0.05)}}  \\
+                 &= 6.9336 \\
+\end{split}
+\end{equation*}
+
+Compute the perplexity of the following word sequences using a bigram
+language model.  {\bf Show all your work!}
+\begin{enumerate}
+
+\item I am Sam
+
+\item Sam I am
+
+\item I is Sam
+  
+\item is I Sam
+  
+\end{enumerate}
+
+ \bf I am Sam \\
+\begin{equation*}
+   \begin{split}
+   PP(I  \thinspace am  \thinspace Sam) & = \sqrt[3]{\frac{1}{P(I/\varnothing) P(am/I) P(Sam/am)}} \\ 
+                 &  = \sqrt[3]{\frac{1}{(0.40) (0.60) (0.25)}}  \\
+                 &= 2.5543 \\
+\end{split}
+\end{equation*}
+
+\bf Sam I am \\
+\begin{equation*}
+   \begin{split}
+   PP(Sam  \thinspace I  \thinspace am) & = \sqrt[3]{\frac{1}{P(Sam/\varnothing) P(I/Sam) P(am/I)}} \\ 
+                 &  = \sqrt[3]{\frac{1}{(0.03) (0.090) (0.60)}}  \\
+                 &=8.5145 \\
+\end{split}
+\end{equation*}
+
+\bf I is Sam \\
+\begin{equation*}
+   \begin{split}
+   PP(I  \thinspace is  \thinspace Sam) & = \sqrt[3]{\frac{1}{P(I/\varnothing) P(is/I) P(Sam/is)}} \\ 
+                 &  = \sqrt[3]{\frac{1}{(0.40) (0.08) (0.35)}}  \\
+                 &= 4.4695 \\
+\end{split}
+\end{equation*}
+
+
+\bf is I Sam \\
+\begin{equation*}
+   \begin{split}
+   PP(is \thinspace I \thinspace Sam) & = \sqrt[3]{\frac{1}{P(is/\varnothing) P(I/is) P(Sam/I)}} \\ 
+                 &  = \sqrt[3]{\frac{1}{(0.25) (0.07) (0.01)}}  \\
+                 &= 17.878 \\
+\end{split}
+\end{equation*}
+  
+\underline{\textbf{Question \#6 is for CS-6340 students ONLY!}}  \\
+
+\item (10 pts) The table below contains frequency values for two 
+  unigrams, two bigrams, and one trigram based on an imaginary text corpus. Fill
+  in the table below with the smoothed  probability of each n-gram using
+  add-k smoothing with the specified value of $k$.  You should assume that the
+  vocabulary V consists  of 100 distinct unigrams, and the total
+  frequency count over all words (unigrams) in the corpus is 4,000.
+  For the sake of simplicity, you should assume that none of the
+  N-grams occur at the end of a sentence. 
+
+  {\bf IMPORTANT: Leave your answer in fractional
+    (numerator/denominator) form! } \\
+
+  \begin{center}
+ \begin{tabular}{|l|c|c|c|} \hline
+ {\bf NOUN} & {\bf FREQ} & {\bf SMOOTHED} & {\bf SMOOTHED} \\
+ ~ & ~ & {\bf PROB (k=1)} & {\bf PROB (k=7)} \\ \hline
+``natural'' & 200 & 8040/41 & 8280/41\\ \hline
+``language'' & 500 & 20040/41 & 20280/41\\ \hline
+``natural language'' &  80 & 81/300 & 87/300\\ \hline
+``language processing''    &  60 & 61/600 & 67/600\\ \hline
+``natural language processing'' &  20 & 21/180 & 27/180 \\ \hline
+ \end{tabular}
+ \end{center}
+
+
+
+\end{enumerate}
+
+\end{document}
+
